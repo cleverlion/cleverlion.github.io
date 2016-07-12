@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="css/main.css" id="main-css">
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/rev-setting-1.js"></script>
+<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+</head>
+<body>
+
+<div class="fullwidthbanner-container">
+		<div id="revolution-slider">
+			<ul>
+				 <li data-transition="fade" data-slotamount="10" data-masterspeed="20" data-thumb="images-slider/thumbs/thumb1.jpg">
+
+					<div class="tp-caption sfl">
+						<img src="images-slider/wide1.jpg" alt="">
+					</div>
+				</li>
+				
+				<!-- THE FIRST SLIDE -->
+				<li data-transition="fade" data-slotamount="10" data-masterspeed="20" data-thumb="images-slider/thumbs/thumb1.jpg">
+
+					<div class="caption sfb">
+						<img src="images-slider/wide2.jpg" alt="">
+					</div>
+				</li>
+
+				<li data-transition="fade" data-slotamount="10" data-masterspeed="20" data-thumb="images-slider/thumbs/thumb1.jpg">
+					<div class="tp-caption sfl">
+						<img src="images-slider/wide3.jpg" alt="">
+					</div>
+				</li>
+			   
+			</ul>
+		</div>
+</div>
+</body>
+</html>
